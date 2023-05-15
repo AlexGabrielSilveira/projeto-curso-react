@@ -1,5 +1,6 @@
 import { useHistory } from 'react-router-dom'
-import Form from '../projectForm/ProjectForm'
+import Form from '../projectForm/ProjectForm.jsx'
+
 import './NewProject.css'
 import React from 'react'
 
@@ -11,8 +12,7 @@ const NewProject = () => {
 
     async function createPost(project) {
 
-        saveCat
-        egory = await fetch('http://localhost:5000/categories', {
+        saveCategory = await fetch('http://localhost:5000/categories', {
         method: "GET",
         headers: {
             'Content-Type': 'application/json'

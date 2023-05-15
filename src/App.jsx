@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Home from './components/home/Home';
-import Company from './components/Company';
-import Contact from './components/Contanct';
-import NewProject from './components/newProject/NewProject';
-import Projects from './components/project/Projects';
+import Home from './components/home/Home.jsx';
+import Company from './components/Company.jsx';
+import Contact from './components/Contanct.jsx';
+import NewProject from './components/newProject/NewProject.jsx';
+import Projects from './components/project/Projects.jsx';
 
-import Container from './layout/container/Container';
-import Navbar from './layout/navbar/Navbar';
-import Footer from './layout/footer/Footer'
+import Container from './layout/container/Container.jsx';
+import Navbar from './layout/navbar/Navbar.jsx';
+import Footer from './layout/footer/Footer.jsx'
 
 
 function App() {

@@ -2,9 +2,9 @@ import { useState, useEffect} from 'react'
 import React from 'react'
 
 import './ProjectForm.css'
-import Input from '../form/Input'
-import Select from '../form/Select'
-import SubmitBtn from '../form/SubmitBtn'
+import Input from '../form/Input.jsx'
+import Select from '../form/Select.jsx'
+import SubmitBtn from '../form/SubmitBtn.jsx'
 
 
 const ProjectForm = ({handleSubmit, projectData}) => {

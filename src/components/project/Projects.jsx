@@ -1,11 +1,12 @@
 import './Project.css'
 import React from 'react'
 
-import Message from "../../layout/message/Message"
+import Message from "../../layout/message/Message.jsx"
+import LinkBtn from '../linkBtn/LinkBtn.jsx'
+import Card from '../card/Card.jsx'
+import Container from '../../layout/container/Container.jsx'
+
 import { useLocation } from 'react-router-dom'
-import Container from '../../layout/container/Container'
-import LinkBtn from '../linkBtn/LinkBtn'
-import Card from '../card/Card'
 import { useState, useEffect } from 'react'
 
 const Projects = () => {

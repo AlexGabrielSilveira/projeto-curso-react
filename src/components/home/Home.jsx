@@ -1,7 +1,7 @@
 import './Home.css'
 import React from 'react'
 import save from '../../../src/img/save.png'
-import LinkBtn from '../linkBtn/LinkBtn'
+import LinkBtn from '../linkBtn/LinkBtn.jsx'
 
 const Home = () => {
     return (

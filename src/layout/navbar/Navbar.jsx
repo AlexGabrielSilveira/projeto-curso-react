@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
-import Container from '../container/Container'
+
+import Container from '../container/Container.jsx'
 
 import './Navbar.css'
 
