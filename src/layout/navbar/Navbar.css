@@ -1,0 +1,28 @@
+img.logo {
+    height: 60px;
+    padding-left: 4em;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.item {
+    margin-right: 1em;
+}
+.item a {
+    color: wheat;
+    text-decoration: none;
+    transition: 150ms;
+    font-weight: bold;
+}
+.item a:hover {
+    transition: 150ms;
+    color: #ffbb33;
+}

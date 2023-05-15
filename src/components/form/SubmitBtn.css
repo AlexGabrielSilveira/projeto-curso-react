@@ -1,0 +1,10 @@
+.subit-btn {
+    background-color: #222;
+    color: wheat;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.7em;
+    width: 100%;
+    border: none;
+    outline: none;
+}

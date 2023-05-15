@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "name": "Custos",
+      "budget": "25.000",
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "estudando",
+      "budget": "13.000",
+      "categories": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "categories": {
+        "id": "1",
+        "name": "infraestrutura"
+      },
+      "budget": "33.000",
+      "name": "ags",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "budget": "12312",
+      "name": "awdad",
+      "categories": {
+        "id": 5,
+        "name": "indefinido"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
