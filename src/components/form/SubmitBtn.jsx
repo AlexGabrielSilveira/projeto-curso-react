@@ -1,10 +1,10 @@
-import './SubmitBtn.css'
+import styles from './SubmitBtn.module.css'
 import React from 'react'
 
 const SubmitBtn = ({ text }) => {
     return (
         <div>
-            <button className='subit-btn'>{text}</button>
+            <button className={styles.subit_btn}>{text}</button>
         </div>
     )
 }

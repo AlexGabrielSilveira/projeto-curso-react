@@ -1,12 +1,9 @@
-.container div{
-    padding: 15px;
-    width: 100%;
-}
 .createProject {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 20px;
 }
 .projectH1 {
     margin-bottom: 10px;

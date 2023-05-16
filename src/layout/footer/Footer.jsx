@@ -1,11 +1,11 @@
 import {FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa"
-import './Footer.css'
+import styles from './Footer.module.css'
 import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <ul className="list">
+        <footer className={styles.footer}>
+            <ul className={styles.list}>
                 <li>
                     <FaFacebook />
                 </li>

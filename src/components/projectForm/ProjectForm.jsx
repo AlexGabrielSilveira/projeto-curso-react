@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react'
 import React from 'react'
 
-import './ProjectForm.css'
+import styles from './ProjectForm.module.css'
 import Input from '../form/Input.jsx'
 import Select from '../form/Select.jsx'
 import SubmitBtn from '../form/SubmitBtn.jsx'
@@ -44,7 +44,7 @@ const ProjectForm = ({handleSubmit, projectData}) => {
     }
 
     return (
-        <form onSubmit={submit} className='form'>
+        <form onSubmit={submit} className={styles.form}>
             <Input type='text' text="Nome do projeto" name='name' placeholder='insira o nome do projeto ...' handlOnChange={handleChange} value={project.name ? project.name : ''}/>
             <Input type="number" text='Orçamento' name='budget' placeholder='insira o orçamento do projeto' handlOnChange={handleChange} value={project.budget ? project.budget : ''}/>
             <Select name='category_id' text='Seleciona a categoria' options={categories} handleOnChange={handleSelect} value={project.categories} />

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
-import './LinkBtn.css'
+import styles from'./LinkBtn.module.css'
 
 const LinkBtn = ({path, text}) => {
     return (
-        <Link className='btn' to={path}>
+        <Link className={styles.btn} to={path}>
             {text}
         </Link>
     )

@@ -1,9 +1,9 @@
-import './Select.css'
+import styles from './Select.module.css'
 import React from 'react'
 
 const Select = ({ text, name, options, handleOnChange, value}) => {
     return (
-        <div className='select_control'>
+        <div className={styles.select_control}>
             <label htmlFor={name}>{text}: </label>
             <select name={name} id={name} onChange={handleOnChange} value={value || ''}>
             <option>Selecione uma opção</option>

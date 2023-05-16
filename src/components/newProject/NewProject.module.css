@@ -1,11 +1,11 @@
-.new-project-container {
+.new_project_container {
     width: 450px;
     margin: 0 auto;
     padding: 3em;
 }
-.new-project-container h1 {
+.new_project_container h1 {
     margin-bottom: 0.7em;
 }
-.new-project-container p {
+.new_project_container p {
     color: #7b7b7b;
 }

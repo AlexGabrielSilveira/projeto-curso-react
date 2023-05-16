@@ -1,11 +1,8 @@
-.container {
-    flex-wrap: wrap;
-}
 .project_card {
     padding: 1em;
     border: 1px solid #7a7a7a;
-    border-radius: 5px; 
-    width: 24% !important;
+    border-radius: 10px;
+    width: 24%;
     margin: 0.5%;
 }
 .project_card h4 {
@@ -15,32 +12,30 @@
     margin-bottom: 1.3em;
     font-size: 1.3em;
 }
-.project_card p {
-    color: #7a7a7a;
-    margin-bottom: 1em;
-}
-.project_card span {
-    font-weight: bold
+.project_card p span {
+    font-weight: bold;
 }
 .category_text {
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
     align-items: center;
 }
 .category_text span {
+    margin-right: 5px;
     display: block;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffbb33;
-    border:  1px solid #222;
-    margin-right: 5px;
 }
 .flexBtn {
     display: flex;
     justify-content: center;
 }
 .pEdit, .pRemove {
-    margin: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
     border: 1px solid #000;
     width:  100px;
     text-align: center;

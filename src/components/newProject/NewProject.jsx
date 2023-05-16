@@ -1,7 +1,7 @@
 import { useHistory } from 'react-router-dom'
 import Form from '../projectForm/ProjectForm.jsx'
 
-import './NewProject.css'
+import styles from './NewProject.module.css'
 import React from 'react'
 
 const NewProject = () => {
@@ -39,14 +39,14 @@ const NewProject = () => {
         //redirect
         .then(data => {
 
-            history.push('/projects', { message: 'Projeto criado com sucesso! '})
+            history.push('/projects')
         })
         .catch(err => console.log(err))
 
     }
 
     return (
-        <div className='new-project-container'>
+        <div className={styles.new_project_container}>
             <h1>Criar Projeto</h1>
             <p>Crie seu projeto para depois adicionar os serviços</p>
             <Form handleSubmit={createPost} />

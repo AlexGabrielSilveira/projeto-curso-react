@@ -1,11 +1,12 @@
-div.container {
+.container {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
+    width: 98vw;
     flex-wrap: wrap;
 }
 .min-height {
-    min-height: 85vh;
+    min-height: 80vh;
 }
 .start {
     justify-content: start;
