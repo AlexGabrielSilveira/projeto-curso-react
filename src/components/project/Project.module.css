@@ -2,9 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 98vw;
     padding: 20px;
 }
 .projectH1 {
     margin-bottom: 10px;
+}
+.noProject {
+    text-align: start;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 20px;
 }

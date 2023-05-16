@@ -1,8 +1,7 @@
 .container {
-    width: 100%;
+    width: 100% !important;
     display: flex;
     justify-content: start;
-    width: 98vw;
     flex-wrap: wrap;
 }
 .min-height {

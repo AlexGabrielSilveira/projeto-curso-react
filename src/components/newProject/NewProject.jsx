@@ -20,7 +20,7 @@ const NewProject = () => {
         })
         .then(res => res.json())
 
-        if(project.categories == undefined) {
+        if(project.categories === undefined) {
             project.categories = saveCategory.at(-1)
         }
 

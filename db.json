@@ -1,5 +1,28 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "25.000",
+      "name": "Projeto 007",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "PROJETO 008",
+      "budget": "23000",
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    }
+  ],
   "categories": [
     {
       "id": 1,

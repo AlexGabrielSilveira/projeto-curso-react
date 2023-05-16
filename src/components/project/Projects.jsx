@@ -65,7 +65,7 @@ const Projects = () => {
                 }
                 {!removeLoad && <Load />}
                 {removeLoad && projects.length === 0 && (
-                    <p>Nenhum Projeto cadastrado! </p>
+                    <p className={styles.noProject}>Nenhum Projeto cadastrado! </p>
                 )}
             </Container>
         </div>

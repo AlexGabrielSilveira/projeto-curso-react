@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
 
-import Container from '../container/Container.jsx'
-
 import styles from'./Navbar.module.css'
 
 import logo from '../../img/logo.png'

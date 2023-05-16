@@ -1,5 +1,6 @@
 import styles from'./Card.module.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({ id, name, budget, category, handleRemove }) => {
 
@@ -18,7 +19,9 @@ const Card = ({ id, name, budget, category, handleRemove }) => {
                 <span></span> {category}
             </p>
             <div className={styles.flexBtn}>
-                <p className={styles.pEdit}>Editar</p>
+                <Link to={`/project/${id}`}>
+                    <p className={styles.pEdit}>Editar</p>
+                </Link>
                 <p className={styles.pRemove} onClick={remove}>Excluir</p>
             </div>
         </div>

@@ -10,6 +10,7 @@ import Projects from './components/project/Projects.jsx';
 import Container from './layout/container/Container.jsx';
 import Navbar from './layout/navbar/Navbar.jsx';
 import Footer from './layout/footer/Footer.jsx'
+import EditProject from './components/edit/Project';
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path='/newProject'>
             <NewProject />
+          </Route>
+          <Route path='/project/:id'>
+            <EditProject />
           </Route>
         </Switch>
         </Container>
