@@ -38,7 +38,7 @@ const NewProject = () => {
         .then(res => res.json())
         //redirect
         .then(data => {
-
+            
             history.push('/projects')
         })
         .catch(err => console.log(err))
@@ -49,7 +49,7 @@ const NewProject = () => {
         <div className={styles.new_project_container}>
             <h1>Criar Projeto</h1>
             <p>Crie seu projeto para depois adicionar os serviços</p>
-            <Form handleSubmit={createPost} />
+            <Form handleSubmit={createPost} btnText="Criar Projeto"/>
         </div>
     )
 }

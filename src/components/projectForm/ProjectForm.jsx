@@ -7,7 +7,7 @@ import Select from '../form/Select.jsx'
 import SubmitBtn from '../form/SubmitBtn.jsx'
 
 
-const ProjectForm = ({handleSubmit, projectData}) => {
+const ProjectForm = ({handleSubmit, projectData, btnText}) => {
 
     const [categories, setCategories] = useState([])
     const[project, setProject] = useState(projectData || {})
@@ -27,7 +27,6 @@ const ProjectForm = ({handleSubmit, projectData}) => {
     }, [])
 
     const submit = e => {
-        
         e.preventDefault()
         handleSubmit(project)
     }
@@ -44,13 +43,16 @@ const ProjectForm = ({handleSubmit, projectData}) => {
     }
 
     return (
-        <form onSubmit={submit} className={styles.form}>
-            <Input type='text' text="Nome do projeto" name='name' placeholder='insira o nome do projeto ...' handlOnChange={handleChange} value={project.name ? project.name : ''}/>
-            <Input type="number" text='Orçamento' name='budget' placeholder='insira o orçamento do projeto' handlOnChange={handleChange} value={project.budget ? project.budget : ''}/>
-            <Select name='category_id' text='Seleciona a categoria' options={categories} handleOnChange={handleSelect} value={project.categories} />
-            <SubmitBtn text='Criar Projeto'/>
-    </form>
-    )
+            <form onSubmit={submit} className={styles.form}>
+                <Input type='text' text="Nome do projeto" name='name' placeholder='insira o nome do projeto ...' handlOnChange={handleChange} value={project.name ? project.name : ''}/>
+                <Input type="number" text='Orçamento' name='budget' placeholder='insira o orçamento do projeto' handlOnChange={handleChange} value={project.budget ? project.budget : ''}/>
+                <Select name='category_id' text='Seleciona a categoria' options={categories} handleOnChange={handleSelect} value={project.categories && project.categories.id} />
+                <SubmitBtn text={btnText}/>
+            </form>
+        )
+        
+       
+    
 }
 
 export default ProjectForm

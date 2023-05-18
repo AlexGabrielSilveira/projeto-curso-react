@@ -1,0 +1,22 @@
+.msg {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-weight: bold;
+    
+}
+.msg p {
+    margin: 0;
+}
+.error {
+    background-color: rgba(255, 0, 0, 0.637);
+    color: white;
+}
+.success {
+    background-color: rgba(0, 255, 21, 0.705);
+}

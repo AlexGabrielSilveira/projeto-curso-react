@@ -1,25 +1,47 @@
 {
   "projects": [
     {
+      "name": "projeto 1",
+      "budget": "10",
       "categories": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "infraestrutura"
       },
-      "budget": "25.000",
-      "name": "Projeto 007",
-      "cost": 0,
-      "services": [],
+      "cost": 2,
+      "services": [
+        {
+          "cost": "1",
+          "id": 660
+        },
+        {
+          "cost": "2",
+          "id": 6174
+        },
+        {
+          "desc": "um projeto que faz requisições a API do TMDB.",
+          "id": 6562,
+          "Name": "Alex Gabriel",
+          "cost": "2"
+        }
+      ],
       "id": 1
     },
     {
-      "name": "PROJETO 008",
-      "budget": "23000",
+      "name": "projeto 2",
+      "budget": "5",
       "categories": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "infraestrutura"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2,
+      "services": [
+        {
+          "cost": "2",
+          "Name": "Alex Gabriel",
+          "desc": "um projeto que faz requisições a API do TMDB.",
+          "id": 1175
+        }
+      ],
       "id": 2
     }
   ],
